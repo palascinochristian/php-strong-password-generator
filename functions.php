@@ -1,5 +1,4 @@
 <?php
-
 // Definisco una funzione per generare la password a cui passo la lunghezza desiderata come argomento
     function generatePassword($length = 0) {
         // Definisco i caratteri che possono essere usati per generare la password inclusi caratteri speciali e numeri
@@ -13,5 +12,4 @@
         }
         return $password;
     }
-
 ?>
